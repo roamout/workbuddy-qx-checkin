@@ -1,0 +1,20 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local secrets (never commit your own token)
+*.local.js
+secrets.*
+token*
+*.token
+
+# Node (test only)
+node_modules/
+package-lock.json
